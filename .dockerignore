@@ -1,18 +1,7 @@
-# 依存関係パッケージ
 node_modules
-
-# Next.jsのビルドキャッシュ
 .next
-
-# Docker関連ファイル
 Dockerfile
 docker-compose.yml
-
-# Git関連
 .git
-
-# 環境変数ファイル (セキュリティのため含めない)
 .env.local
-
-# npmのログファイル
 npm-debug.log*
