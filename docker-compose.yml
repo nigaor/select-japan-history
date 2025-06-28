@@ -1,0 +1,24 @@
+version: '3.8'
+
+# サービス（コンテナ）の定義
+services:
+  # サービス名（任意）
+  next-app:
+    # ビルドに関する設定
+    build:
+      # Dockerfileがあるディレクトリ（カレントディレクトリ）
+      context: .
+      dockerfile: Dockerfile
+    container_name: japan-history-map-app
+    ports:
+      - "3000:3000"
+    # ボリュームのマッピング（ファイルの同期）
+    volumes:
+      - .:/app
+      # node_modulesだけはホストと同期しないように設定
+      - /app/node_modules
+    # コンテナを常に起動状態に保つ設定
+    tty: true
+    # 環境変数
+    environment:
+      - NODE_ENV=development
