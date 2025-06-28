@@ -1,0 +1,42 @@
+[
+  {
+    "year": 794,
+    "name": "平安京遷都",
+    "description": "桓武天皇が都を平安京（現在の京都市）に移しました。これ以降、鎌倉時代まで日本の政治・文化の中心となります。",
+    "locationId": 26,
+    "locationName": "京都府",
+    "image": "/images/heian-jingu.jpg"
+  },
+  {
+    "year": 1192,
+    "name": "鎌倉幕府成立",
+    "description": "源頼朝が征夷大将軍に任命され、武家による本格的な政権である鎌倉幕府が成立しました。",
+    "locationId": 14,
+    "locationName": "神奈川県",
+    "image": "/images/kamakura-daibutsu.jpg"
+  },
+  {
+    "year": 1338,
+    "name": "室町幕府成立",
+    "description": "足利尊氏が征夷大将軍に任命され、室町幕府を開きました。政治の中心は再び京都に移ります。",
+    "locationId": 26,
+    "locationName": "京都府",
+    "image": "/images/kinkakuji.jpg"
+  },
+  {
+    "year": 1603,
+    "name": "江戸幕府成立",
+    "description": "徳川家康が征夷大将軍に任命され、江戸（現在の東京）に幕府を開きました。約260年続く江戸時代の始まりです。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/edo-castle.jpg"
+  },
+  {
+    "year": 1868,
+    "name": "明治維新",
+    "description": "大政奉還・王政復古の大号令により新政府が樹立。首都が東京と定められ、近代化が急速に進みました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/meiji-jingu.jpg"
+  }
+]
