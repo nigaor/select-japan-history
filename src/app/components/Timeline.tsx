@@ -9,7 +9,6 @@ interface TimelineProps {
 }
 
 const Timeline: React.FC<TimelineProps> = ({ events, onYearHover }) => {
-  // 年代順にソート
   const sortedEvents = [...events].sort((a, b) => a.year - b.year);
 
   return (
