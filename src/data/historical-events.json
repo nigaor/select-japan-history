@@ -8,12 +8,61 @@
     "image": "/images/heian-jingu.jpg"
   },
   {
+    "year": 1185,
+    "name": "壇ノ浦の戦い",
+    "description": "源頼朝が平氏を滅ぼし、武士の政権樹立への道を開いた決定的な戦いです。",
+    "locationId": 35,
+    "locationName": "山口県",
+    "image": "/images/dan-no-ura.jpg"
+  },
+  {
     "year": 1192,
     "name": "鎌倉幕府成立",
     "description": "源頼朝が征夷大将軍に任命され、武家による本格的な政権である鎌倉幕府が成立しました。",
     "locationId": 14,
     "locationName": "神奈川県",
     "image": "/images/kamakura-daibutsu.jpg"
+  },
+  {
+    "year": 1221,
+    "name": "承久の乱",
+    "description": "後鳥羽上皇が鎌倉幕府打倒を試みるも失敗し、幕府の朝廷への優位が確立しました。",
+    "locationId": 26,
+    "locationName": "京都府",
+    "image": "/images/jokyu-no-ran.jpg"
+  },
+
+  {
+    "year": 1232,
+    "name": "御成敗式目",
+    "description": "北条泰時が武士のための法典を制定し、幕府の支配を強化。",
+    "locationId": 26,
+    "locationName": "京都府",
+    "image": "/images/kinkakuji.jpg"
+  },
+  {
+    "year": 1274,
+    "name": "文永の役（元寇）",
+    "description": "モンゴル帝国（元）が日本へ初めて侵攻しましたが、神風などにより撃退しました。",
+    "locationId": 42,
+    "locationName": "長崎県",
+    "image": "/images/bunei-no-eki.jpg"
+  },
+  {
+    "year": 1281,
+    "name": "弘安の役（元寇）",
+    "description": "元が再度大規模な侵攻を行うも、激しい抵抗と神風により再び撃退しました。",
+    "locationId": 40,
+    "locationName": "福岡県",
+    "image": "/images/koan-no-eki.jpg"
+  },
+  {
+    "year": 1333,
+    "name": "鎌倉幕府滅亡",
+    "description": "足利尊氏や新田義貞らの挙兵により、鎌倉幕府が滅亡しました。",
+    "locationId": 14,
+    "locationName": "神奈川県",
+    "image": "/images/kamakura-fall.jpg"
   },
   {
     "year": 1338,
