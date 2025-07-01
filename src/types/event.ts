@@ -1,4 +1,4 @@
-import {z} from 'zod';
+import { z } from "zod";
 
 export const historicalEventSchema = z.object({
   year: z.number().int().positive(),
