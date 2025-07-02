@@ -6,6 +6,7 @@ import { historicalEventsSchema, HistoricalEvent } from "@/types/event";
 import historicalEventsData from "@/data/historical-events.json";
 import EventCard from "./components/EventCard";
 import Timeline from "./components/Timeline";
+import EraList from "./components/EraList";
 
 const DynamicJapanMap = dynamic(() => import("@/app/components/JapanMap"), {
   ssr: false,
@@ -27,31 +28,51 @@ try {
   );
 }
 
+const eras = [ "すべて", ...new Set(parsedEvents.map((event) => event.era))];
+
 export default function Home() {
   const [activeEvent, setActiveEvent] = useState<HistoricalEvent | null>(null);
+  const [selectedEra,setSelectedEra] = useState<string>("鎌倉時代");
 
   const handleYearHover = (event: HistoricalEvent | null) => {
     setActiveEvent(event);
   };
 
+  const handleSelectEra = (era:string) => {
+    setSelectedEra(era);
+    setActiveEvent(null);
+  }
+  
+  const filteredEvents =
+    selectedEra === "すべて"
+      ? parsedEvents
+      : parsedEvents.filter((event) => event.era === selectedEra);
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-8 bg-gray-50">
       <h1 className="text-4xl font-bold mb-8">インタラクティブ日本史マップ</h1>
 
-      <div className="w-full max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-8">
-        <div className="w-full h-auto border rounded-lg shadow-sm bg-white overflow-hidden">
+      <div className="w-full max-w-7xl grid grid-cols-1 lg:grid-cols-12 gap-8">
+        <div className="w-full h-auto border rounded-lg shadow-sm bg-white overflow-hidden lg:col-span-5">
           <DynamicJapanMap
             highlightedLocationId={activeEvent?.locationId ?? null}
           />
         </div>
 
-        <div className="w-full h-full">
+        <div className="w-full h-full lg:col-span-5">
           <EventCard event={activeEvent} />
+        </div>
+        <div className="w-full h-full lg:col-span-2">
+          <EraList
+            eras={eras}
+            selectedEra={selectedEra}
+            onSelectEra={handleSelectEra}
+          />
         </div>
       </div>
 
       <div className="w-full max-w-7xl mt-8">
-        <Timeline events={parsedEvents} onYearHover={handleYearHover} />
+        <Timeline events={filteredEvents} onYearHover={handleYearHover} />
       </div>
     </main>
   );
