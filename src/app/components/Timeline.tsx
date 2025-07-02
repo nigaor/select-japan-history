@@ -21,10 +21,9 @@ const Timeline: React.FC<TimelineProps> = ({ events, onYearHover }) => {
             key={event.year}
             className="z-10"
             onMouseEnter={() => onYearHover(event)}
-            onMouseLeave={() => onYearHover(null)}
           >
             <div className="relative group">
-              <div className="w-4 h-4 bg-blue-500 rounded-full cursor-pointer"></div>
+              <div className="w-4 h-4 bg-blue-500 rounded-full cursor-pointer hover:scale-200"></div>
               <div className="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="bg-gray-800 text-white text-sm rounded-md px-2 py-1 whitespace-nowrap">
                   {event.year}年
