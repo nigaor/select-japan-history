@@ -3,6 +3,7 @@ import { z } from "zod";
 export const historicalEventSchema = z.object({
   year: z.number().int().positive(),
   name: z.string().min(1),
+  era: z.string(),
   description: z.string(),
   locationId: z.number(),
   locationName: z.string(),
