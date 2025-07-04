@@ -82,13 +82,108 @@
     "image": "/images/kinkakuji.jpg"
   },
   {
+    "year": 1600,
+    "name": "関ヶ原の戦い",
+    "description": "徳川家康が石田三成らを破り、全国統一への主導権を確立した天下分け目の戦いです。",
+    "locationId": 21,
+    "locationName": "岐阜県",
+    "image": "/images/sekigahara.jpg"
+  },
+  {
     "year": 1603,
     "name": "江戸幕府成立",
-    "era": "江戸時代",
-    "description": "徳川家康が征夷大将軍に任命され、江戸（現在の東京）に幕府を開きました。約260年続く江戸時代の始まりです。",
+    "description": "徳川家康が征夷大将軍に任命され、江戸に幕府を開き、約260年にわたる徳川の治世が始まりました。",
     "locationId": 13,
     "locationName": "東京都",
     "image": "/images/edo-castle.jpg"
+  },
+  {
+    "year": 1615,
+    "name": "大坂夏の陣",
+    "description": "徳川家康が豊臣氏を滅ぼし、豊臣家による抵抗を完全に終わらせ、武士による支配体制を確立しました。",
+    "locationId": 27,
+    "locationName": "大阪府",
+    "image": "/images/osaka-natsunojin.jpg"
+  },
+  {
+    "year": 1635,
+    "name": "武家諸法度改訂（参勤交代の義務化）",
+    "description": "徳川家光が武家諸法度を改訂し、諸大名に参勤交代を義務付け、幕府への忠誠を強化し、財政を圧迫しました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/sankin-kotai.jpg"
+  },
+  {
+    "year": 1637,
+    "name": "島原の乱",
+    "description": "キリシタンや農民による大規模な一揆が勃発し、幕府が徹底的に鎮圧しました。これにより鎖国政策が強化されました。",
+    "locationId": 42,
+    "locationName": "長崎県",
+    "image": "/images/shimabara-revolt.jpg"
+  },
+  {
+    "year": 1639,
+    "name": "鎖国体制の完成",
+    "description": "ポルトガル船の来航禁止、日本人の海外渡航・帰国禁止などにより、幕府による鎖国体制が確立しました。",
+    "locationId": 42,
+    "locationName": "長崎県",
+    "image": "/images/sakoku.jpg"
+  },
+  {
+    "year": 1716,
+    "name": "享保の改革",
+    "description": "徳川吉宗が行った幕府財政の立て直しと綱紀粛正を目的とした改革で、質素倹約や新田開発を推進しました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/kyoho-reform.jpg"
+  },
+  {
+    "year": 1787,
+    "name": "寛政の改革",
+    "description": "松平定信が老中となり、財政再建や風紀の引き締めを図った改革です。倹約令や出版統制などが行われました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/kansei-reform.jpg"
+  },
+  {
+    "year": 1825,
+    "name": "異国船打払令",
+    "description": "外国船が日本の近海に近づいた際に無条件で撃退することを命じた法令で、鎖国政策をより厳格化しました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/ikokusen-uchiharai.jpg"
+  },
+  {
+    "year": 1833,
+    "name": "天保の飢饉",
+    "description": "全国的な大飢饉が発生し、各地で打ちこわしや一揆が頻発するなど、幕府の権威が揺らぎ始めました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/tempo-famine.jpg"
+  },
+  {
+    "year": 1853,
+    "name": "黒船来航",
+    "description": "アメリカのペリー提督が浦賀に来航し開国を要求。これにより日本の鎖国体制が大きく揺らぎ始めました。",
+    "locationId": 14,
+    "locationName": "神奈川県",
+    "image": "/images/kurofune.jpg"
+  },
+  {
+    "year": 1854,
+    "name": "日米和親条約締結",
+    "description": "ペリーとの交渉により、日本が開国し、下田と箱館（函館）を開港。鎖国が終焉へと向かう大きな一歩となりました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/nichibei-washin.jpg"
+  },
+  {
+    "year": 1867,
+    "name": "大政奉還",
+    "description": "徳川慶喜が政権を朝廷に返上し、約260年続いた江戸幕府が終焉を迎えました。",
+    "locationId": 26,
+    "locationName": "京都府",
+    "image": "/images/taisei-hokan.jpg"
   },
   {
     "year": 1868,
