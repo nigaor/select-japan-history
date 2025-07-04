@@ -18,7 +18,7 @@ const Timeline: React.FC<TimelineProps> = ({ events, onYearHover }) => {
 
         {sortedEvents.map((event) => (
           <div
-            key={event.year}
+            key={event.id}
             className="z-10"
             onMouseEnter={() => onYearHover(event)}
           >
