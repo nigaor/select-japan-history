@@ -1,14 +1,286 @@
 [
   {
-    "year": 794,
-    "name": "平安京遷都",
-    "era": "鎌倉時代",
-    "description": "桓武天皇が都を平安京（現在の京都市）に移しました。これ以降、鎌倉時代まで日本の政治・文化の中心となります。",
-    "locationId": 26,
-    "locationName": "京都府",
-    "image": "/images/heian-jingu.jpg"
+    "id":"001",
+    "year": 538,
+    "name": "仏教伝来",
+    "era": "飛鳥時代",
+    "description": "百済から日本に仏教が伝えられ、日本の文化や政治に大きな影響を与え始めました。",
+    "locationId": 29,
+    "locationName": "奈良県",
+    "image": "/images/buddhism-arrival.jpg"
   },
   {
+    "id":"002",
+    "year": 593,
+    "name": "推古天皇即位",
+    "era": "飛鳥時代",
+    "description": "日本初の女性天皇として推古天皇が即位し、聖徳太子が摂政となり、政治の中心となりました。",
+    "locationId": 29,
+    "locationName": "奈良県",
+    "image": "/images/suiko-empress.jpg"
+  },
+  {
+    "id":"003",
+    "year": 604,
+    "name": "十七条憲法制定",
+    "era": "飛鳥時代",
+    "description": "聖徳太子が、官僚や国民の道徳的な規範を示した十七条憲法を制定しました。",
+    "locationId": 29,
+    "locationName": "奈良県",
+    "image": "/images/seventeen-articles.jpg"
+  },
+  {
+    "id":"004",
+    "year": 607,
+    "name": "遣隋使派遣（小野妹子）",
+    "era": "飛鳥時代",
+    "description": "小野妹子が隋に派遣され、対等な外交関係を目指し、日本の国際的な地位を高めました。",
+    "locationId": 29,
+    "locationName": "奈良県",
+    "image": "/images/kentsuishi.jpg"
+  },
+  {
+    "id":"005",
+    "year": 645,
+    "name": "乙巳の変（大化の改新の始まり）",
+    "era": "飛鳥時代",
+    "description": "中大兄皇子らが蘇我入鹿を暗殺し、蘇我氏の専横を排除。大化の改新のきっかけとなりました。",
+    "locationId": 29,
+    "locationName": "奈良県",
+    "image": "/images/isshi-no-hen.jpg"
+  },
+  {
+    "id":"006",
+    "year": 646,
+    "name": "大化の改新の詔",
+    "era": "飛鳥時代",
+    "description": "天皇中心の中央集権国家を目指し、土地・人民の公地公民化や新たな税制などが定められました。",
+    "locationId": 29,
+    "locationName": "奈良県",
+    "image": "/images/taika-no-kaishin.jpg"
+  },
+  {
+    "id":"007",
+    "year": 663,
+    "name": "白村江の戦い",
+    "era": "飛鳥時代",
+    "description": "日本が百済を支援し、唐・新羅連合軍と戦いましたが大敗。これにより国際関係が大きく変化しました。",
+    "locationId": 43,
+    "locationName": "熊本県",
+    "image": "/images/hakusukinoe.jpg"
+  },
+  {
+    "id":"008",
+    "year": 672,
+    "name": "壬申の乱",
+    "era": "飛鳥時代",
+    "description": "天武天皇と大友皇子との間で皇位を巡る内乱が起こり、天武天皇が勝利して律令国家形成を推進しました。",
+    "locationId": 29,
+    "locationName": "奈良県",
+    "image": "/images/jinshin-no-ran.jpg"
+  },
+  {
+    "id":"009",
+    "year": 694,
+    "name": "藤原京遷都",
+    "era": "飛鳥時代",
+    "description": "持統天皇が中国の都城を模した日本初の本格的な都、藤原京に遷都しました。",
+    "locationId": 29,
+    "locationName": "奈良県",
+    "image": "/images/fujiwara-kyo.jpg"
+  },
+  {
+    "id":"010",
+    "year": 710,
+    "name": "平城京遷都",
+    "era": "奈良時代",
+    "description": "元明天皇が藤原京から平城京へ都を移し、本格的な律令国家体制が確立されました。",
+    "locationId": 29,
+    "locationName": "奈良県",
+    "image": "/images/heijokyo-sento.jpg"
+  },
+  {
+    "id":"011",
+    "year": 712,
+    "name": "古事記成立",
+    "era": "奈良時代",
+    "description": "太安万侶が編纂した日本最古の歴史書で、日本の神話や歴史、文化を記録しています。",
+    "locationId": 29,
+    "locationName": "奈良県",
+    "image": "/images/kojiki.jpg"
+  },
+  {
+    "id":"012",
+    "year": 720,
+    "name": "日本書紀成立",
+    "era": "奈良時代",
+    "description": "舎人親王らが編纂した正史で、漢文体で書かれ、古代日本の歴史を体系的に記述しています。",
+    "locationId": 29,
+    "locationName": "奈良県",
+    "image": "/images/nihonshoki.jpg"
+  },
+  {
+    "id":"013",
+    "year": 724,
+    "name": "聖武天皇即位",
+    "era": "奈良時代",
+    "description": "仏教を篤く信仰し、鎮護国家思想に基づき、東大寺大仏造立などを推進しました。",
+    "locationId": 29,
+    "locationName": "奈良県",
+    "image": "/images/shomu-emperor.jpg"
+  },
+  {
+    "id":"014",
+    "year": 743,
+    "name": "墾田永年私財法制定",
+    "era": "奈良時代",
+    "description": "開墾した土地の私有を認め、口分田不足の解消と土地開発を促進しましたが、私有地の拡大を招きました。",
+    "locationId": 29,
+    "locationName": "奈良県",
+    "image": "/images/konden-einen-shizaiho.jpg"
+  },
+  {
+    "id":"015",
+    "year": 752,
+    "name": "東大寺大仏開眼供養",
+    "era": "奈良時代",
+    "description": "聖武天皇の発願により造立された盧舎那仏の開眼供養が行われ、仏教文化の最盛期を象徴しました。",
+    "locationId": 29,
+    "locationName": "奈良県",
+    "image": "/images/todaiji-daibutsu.jpg"
+  },
+  {
+    "id":"016",
+    "year": 756,
+    "name": "正倉院の開扉",
+    "era": "奈良時代",
+    "description": "聖武天皇の遺品が光明皇后によって東大寺に献納され、貴重な美術工芸品が現代まで伝えられています。",
+    "locationId": 29,
+    "locationName": "奈良県",
+    "image": "/images/shosoin.jpg"
+  },
+  {
+    "id":"017",
+    "year": 757,
+    "name": "養老律令施行",
+    "era": "奈良時代",
+    "description": "大宝律令を改訂し、より詳細な法規が定められ、律令国家としての体制が強化されました。",
+    "locationId": 29,
+    "locationName": "奈良県",
+    "image": "/images/yoro-ritsuryo.jpg"
+  },
+  {
+    "id":"018",
+    "year": 784,
+    "name": "長岡京遷都（桓武天皇）",
+    "era": "奈良時代",
+    "description": "桓武天皇が奈良の仏教勢力の影響を避けるため、長岡京へ遷都し、平安京遷都への布石となりました。",
+    "locationId": 26,
+    "locationName": "京都府",
+    "image": "/images/nagaokakyo-sento.jpg"
+  },
+  {
+    "id":"019",
+    "year": 794,
+    "name": "平安京遷都",
+    "era": "平安時代",
+    "description": "桓武天皇が長岡京から平安京へ都を移し、これが日本の首都として約1000年にわたり栄えることになります。",
+    "locationId": 26,
+    "locationName": "京都府",
+    "image": "/images/heiankyo-sento.jpg"
+  },
+  {
+    "id":"020",
+    "year": 805,
+    "name": "最澄、天台宗開宗",
+    "era": "平安時代",
+    "description": "唐から帰国した最澄が比叡山延暦寺を開き、天台宗を開宗しました。",
+    "locationId": 25,
+    "locationName": "滋賀県",
+    "image": "/images/saicho.jpg"
+  },
+  {
+    "id":"021",
+    "year": 806,
+    "name": "空海、真言宗開宗",
+    "era": "平安時代",
+    "description": "唐から帰国した空海が高野山に金剛峯寺を開き、真言宗を開宗しました。",
+    "locationId": 30,
+    "locationName": "和歌山県",
+    "image": "/images/kukaii.jpg"
+  },
+  {
+    "id":"022",
+    "year": 894,
+    "name": "遣唐使廃止",
+    "era": "平安時代",
+    "description": "菅原道真の建議により、唐の衰退や国内の文化発展を背景に遣唐使が廃止されました。これにより国風文化が発展します。",
+    "locationId": 26,
+    "locationName": "京都府",
+    "image": "/images/kentoushi-haishi.jpg"
+  },
+  {
+    "id":"023",
+    "year": 905,
+    "name": "古今和歌集成立",
+    "era": "平安時代",
+    "description": "醍醐天皇の命により紀貫之らが編纂した勅撰和歌集で、和歌が文学の中心となりました。",
+    "locationId": 26,
+    "locationName": "京都府",
+    "image": "/images/kokin-wakashu.jpg"
+  },
+  {
+    "id":"024",
+    "year": 1016,
+    "name": "藤原道長、摂政に就任",
+    "era": "平安時代",
+    "description": "藤原道長が摂政となり、娘を次々と天皇の后にして外戚として権勢を振るい、藤原氏の全盛期を築きました。",
+    "locationId": 26,
+    "locationName": "京都府",
+    "image": "/images/fujiwara-michinaga.jpg"
+  },
+  {
+    "id":"025",
+    "year": 1086,
+    "name": "院政の開始",
+    "era": "平安時代",
+    "description": "白河上皇が天皇の位を譲った後も政治の実権を握り、院庁を通じて政治を行う院政を開始しました。",
+    "locationId": 26,
+    "locationName": "京都府",
+    "image": "/images/insei.jpg"
+  },
+  {
+    "id":"026",
+    "year": 1156,
+    "name": "保元の乱",
+    "era": "平安時代",
+    "description": "皇室と摂関家の対立に武士が介入した争乱で、平清盛と源義朝がそれぞれ名を上げました。",
+    "locationId": 26,
+    "locationName": "京都府",
+    "image": "/images/hogen-no-ran.jpg"
+  },
+  {
+    "id":"027",
+    "year": 1159,
+    "name": "平治の乱",
+    "era": "平安時代",
+    "description": "保元の乱後に台頭した源氏と平氏の対立が激化し、平清盛が源義朝を破り、武家政権樹立への道を開きました。",
+    "locationId": 26,
+    "locationName": "京都府",
+    "image": "/images/heiji-no-ran.jpg"
+  },
+  {
+    "id":"028",
+    "year": 1167,
+    "name": "平清盛、太政大臣に就任",
+    "era": "平安時代",
+    "description": "武士として初めて平清盛が最高官職である太政大臣となり、平氏政権の全盛期を築きました。",
+    "locationId": 26,
+    "locationName": "京都府",
+    "image": "/images/taira-kiyomori.jpg"
+  },
+  {
+    "id":"029",
     "year": 1185,
     "name": "壇ノ浦の戦い",
     "era": "鎌倉時代",
@@ -18,6 +290,17 @@
     "image": "/images/dan-no-ura.jpg"
   },
   {
+    "id":"030",
+    "year": 1185,
+    "name": "守護・地頭の設置",
+    "era": "鎌倉時代",
+    "description": "源頼朝が全国に守護・地頭を置き、地方の支配体制を確立しました。",
+    "locationId": 14,
+    "locationName": "神奈川県",
+    "image": "/images/shugo-jito.jpg"
+  },
+  {
+    "id":"031",
     "year": 1192,
     "name": "鎌倉幕府成立",
     "era": "鎌倉時代",
@@ -27,6 +310,27 @@
     "image": "/images/kamakura-daibutsu.jpg"
   },
   {
+    "id":"032",
+    "year": 1203,
+    "name": "比企能員の変",
+    "era": "鎌倉時代",
+    "description": "北条時政が外戚である比企氏を滅ぼし、北条氏の権力基盤を強化しました。",
+    "locationId": 14,
+    "locationName": "神奈川県",
+    "image": "/images/hiki-yoshikazu-no-hen.jpg"
+  },
+  {
+    "id":"033",
+    "year": 1219,
+    "name": "源実朝暗殺",
+    "era": "鎌倉時代",
+    "description": "源頼朝の子である源実朝が暗殺され、源氏の将軍家が断絶しました。",
+    "locationId": 14,
+    "locationName": "神奈川県",
+    "image": "/images/minamoto-sanetomo-assassination.jpg"
+  },
+  {
+    "id":"034",
     "year": 1221,
     "name": "承久の乱",
     "era": "鎌倉時代",
@@ -35,17 +339,28 @@
     "locationName": "京都府",
     "image": "/images/jokyu-no-ran.jpg"
   },
-
   {
+    "id":"035",
     "year": 1232,
-    "name": "御成敗式目",
+    "name": "御成敗式目制定",
     "era": "鎌倉時代",
-    "description": "北条泰時が武士のための法典を制定し、幕府の支配を強化。",
-    "locationId": 26,
-    "locationName": "京都府",
-    "image": "/images/kinkakuji.jpg"
+    "description": "北条泰時が武士のための法典を制定し、幕府の支配を強化しました。",
+    "locationId": 14,
+    "locationName": "神奈川県",
+    "image": "/images/goseibai-shikimoku.jpg"
   },
   {
+    "id":"036",
+    "year": 1247,
+    "name": "宝治合戦",
+    "era": "鎌倉時代",
+    "description": "北条時頼が有力御家人である三浦氏を滅ぼし、北条氏の執権政治を磐石なものとしました。",
+    "locationId": 14,
+    "locationName": "神奈川県",
+    "image": "/images/hoji-gassen.jpg"
+  },
+  {
+    "id":"037",
     "year": 1274,
     "name": "文永の役（元寇）",
     "era": "鎌倉時代",
@@ -55,6 +370,7 @@
     "image": "/images/bunei-no-eki.jpg"
   },
   {
+    "id":"038",
     "year": 1281,
     "name": "弘安の役（元寇）",
     "era": "鎌倉時代",
@@ -64,6 +380,17 @@
     "image": "/images/koan-no-eki.jpg"
   },
   {
+    "id":"039",
+    "year": 1297,
+    "name": "永仁の徳政令",
+    "era": "鎌倉時代",
+    "description": "窮乏した御家人を救済するため、北条貞時が債権放棄などを命じた法令です。効果は限定的でした。",
+    "locationId": 14,
+    "locationName": "神奈川県",
+    "image": "/images/einin-no-tokuseirei.jpg"
+  },
+  {
+    "id":"040",
     "year": 1333,
     "name": "鎌倉幕府滅亡",
     "era": "鎌倉時代",
@@ -73,125 +400,813 @@
     "image": "/images/kamakura-fall.jpg"
   },
   {
+    "id":"041",
+    "year": 1336,
+    "name": "建武式目制定",
+    "era": "室町時代",
+    "description": "足利尊氏が新しい武家政権の基本方針を示した法令で、室町幕府の礎となりました。",
+    "locationId": 26,
+    "locationName": "京都府",
+    "image": "/images/kenmu-shikimoku.jpg"
+  },
+  {
+    "id":"042",
     "year": 1338,
     "name": "室町幕府成立",
     "era": "室町時代",
-    "description": "足利尊氏が征夷大将軍に任命され、室町幕府を開きました。政治の中心は再び京都に移ります。",
+    "description": "足利尊氏が征夷大将軍に任命され、京都の室町に幕府を開き、武家による新たな統治が始まりました。",
     "locationId": 26,
     "locationName": "京都府",
-    "image": "/images/kinkakuji.jpg"
+    "image": "/images/muromachi-bakufu.jpg"
   },
   {
+    "id":"043",
+    "year": 1392,
+    "name": "南北朝統一",
+    "era": "室町時代",
+    "description": "足利義満が、対立していた南朝と北朝を統一させ、約60年にわたる混乱に終止符を打ちました。",
+    "locationId": 26,
+    "locationName": "京都府",
+    "image": "/images/nanboku-cho-toitsu.jpg"
+  },
+  {
+    "id":"044",
+    "year": 1429,
+    "name": "琉球王国成立",
+    "era": "室町時代",
+    "description": "尚巴志が三山を統一し、琉球王国を建国。東アジアの国際貿易で栄えました。",
+    "locationId": 47,
+    "locationName": "沖縄県",
+    "image": "/images/ryukyu-kingdom.jpg"
+  },
+  {
+    "id":"045",
+    "year": 1467,
+    "name": "応仁の乱勃発",
+    "era": "室町時代",
+    "description": "細川勝元と山名宗全の対立を発端に、約11年間続く大規模な内乱が京都を中心に発生し、全国に波及しました。",
+    "locationId": 26,
+    "locationName": "京都府",
+    "image": "/images/onin-no-ran.jpg"
+  },
+  {
+    "id":"046",
+    "year": 1477,
+    "name": "応仁の乱終結（戦国時代の始まり）",
+    "era": "室町時代",
+    "description": "応仁の乱が終結しましたが、幕府の権威は失墜し、各地で守護大名や戦国大名が台頭する戦国時代へと突入しました。",
+    "locationId": 26,
+    "locationName": "京都府",
+    "image": "/images/sengoku-jidai-start.jpg"
+  },
+  {
+    "id":"047",
+    "year": 1488,
+    "name": "加賀一向一揆",
+    "era": "室町時代",
+    "description": "本願寺門徒が守護富樫氏を倒し、約100年間にわたって加賀を支配した、日本史上稀に見る農民による自治権獲得の例です。",
+    "locationId": 17,
+    "locationName": "石川県",
+    "image": "/images/kaga-ikko-ikki.jpg"
+  },
+  {
+    "id":"048",
+    "year": 1543,
+    "name": "鉄砲伝来",
+    "era": "室町時代",
+    "description": "ポルトガル人が種子島に漂着し、日本に鉄砲が伝来。その後の戦国時代の戦闘方法に大きな影響を与えました。",
+    "locationId": 46,
+    "locationName": "鹿児島県",
+    "image": "/images/teppo-denrai.jpg"
+  },
+  {
+    "id":"049",
+    "year": 1549,
+    "name": "キリスト教伝来",
+    "era": "室町時代",
+    "description": "フランシスコ・ザビエルが鹿児島に上陸し、日本にキリスト教が伝えられました。これは後の文化や社会に影響を与えました。",
+    "locationId": 46,
+    "locationName": "鹿児島県",
+    "image": "/images/christianity-arrival.jpg"
+  },
+   {
+    "id":"050",
+    "year": 1568,
+    "name": "織田信長、足利義昭を奉じて入京",
+    "era": "安土桃山時代",
+    "description": "織田信長が室町幕府15代将軍足利義昭を擁して京都に入り、天下統一への第一歩を踏み出しました。",
+    "locationId": 26,
+    "locationName": "京都府",
+    "image": "/images/nobunaga-nyukyo.jpg"
+  },
+  {
+    "id":"051",
+    "year": 1573,
+    "name": "室町幕府滅亡",
+    "era": "安土桃山時代",
+    "description": "織田信長が足利義昭を追放し、約240年続いた室町幕府が完全に滅亡しました。",
+    "locationId": 26,
+    "locationName": "京都府",
+    "image": "/images/muromachi-bakufu-fall.jpg"
+  },
+  {
+    "id":"052",
+    "year": 1575,
+    "name": "長篠の戦い",
+    "era": "安土桃山時代",
+    "description": "織田信長・徳川家康連合軍が、鉄砲の三段撃ち戦法を用いて武田勝頼軍を破り、戦国時代の戦術に大きな変革をもたらしました。",
+    "locationId": 23,
+    "locationName": "愛知県",
+    "image": "/images/nagashino-battle.jpg"
+  },
+  {
+    "id":"053",
+    "year": 1582,
+    "name": "本能寺の変",
+    "era": "安土桃山時代",
+    "description": "天下統一を目前にした織田信長が、家臣の明智光秀の謀反により京都の本能寺で自害しました。",
+    "locationId": 26,
+    "locationName": "京都府",
+    "image": "/images/honnouji-hen.jpg"
+  },
+  {
+    "id":"054",
+    "year": 1582,
+    "name": "山崎の戦い",
+    "era": "安土桃山時代",
+    "description": "本能寺の変の直後、羽柴秀吉（豊臣秀吉）が明智光秀を破り、信長の後継者としての地位を確立しました。",
+    "locationId": 26,
+    "locationName": "京都府",
+    "image": "/images/yamazaki-battle.jpg"
+  },
+  {
+    "id":"055",
+    "year": 1585,
+    "name": "豊臣秀吉、関白に就任",
+    "era": "安土桃山時代",
+    "description": "羽柴秀吉が朝廷の最高職である関白に就任し、豊臣政権の基盤を固めました。",
+    "locationId": 26,
+    "locationName": "京都府",
+    "image": "/images/hideyoshi-kanpaku.jpg"
+  },
+  {
+    "id":"056",
+    "year": 1588,
+    "name": "刀狩令発令",
+    "era": "安土桃山時代",
+    "description": "豊臣秀吉が農民から武器を取り上げ、兵農分離を推進し、一揆の防止と社会秩序の安定を図りました。",
+    "locationId": 27,
+    "locationName": "大阪府",
+    "image": "/images/katanagari.jpg"
+  },
+  {
+    "id":"057",
+    "year": 1590,
+    "name": "小田原征伐（天下統一）",
+    "era": "安土桃山時代",
+    "description": "豊臣秀吉が北条氏を滅ぼし、全国の主要な大名を従え、約100年続いた戦国時代に終止符を打ち、天下統一を達成しました。",
+    "locationId": 14,
+    "locationName": "神奈川県",
+    "image": "/images/odawara-seibatsu.jpg"
+  },
+  {
+    "id":"058",
+    "year": 1592,
+    "name": "文禄の役（朝鮮出兵）",
+    "era": "安土桃山時代",
+    "description": "豊臣秀吉が明の征服を目指し、朝鮮半島に出兵。しかし、朝鮮・明連合軍の抵抗により苦戦しました。",
+    "locationId": 41,
+    "locationName": "佐賀県",
+    "image": "/images/bunroku-no-eki.jpg"
+  },
+  {
+    "id":"059",
+    "year": 1597,
+    "name": "慶長の役（朝鮮出兵）",
+    "era": "安土桃山時代",
+    "description": "文禄の役の停戦交渉決裂後、豊臣秀吉が再び朝鮮に出兵。秀吉の死により撤退しました。",
+    "locationId": 41,
+    "locationName": "佐賀県",
+    "image": "/images/keicho-no-eki.jpg"
+  },
+  {
+    "id":"060",
+    "year": 1598,
+    "name": "豊臣秀吉死去",
+    "era": "安土桃山時代",
+    "description": "天下統一を成し遂げた豊臣秀吉が死去。これにより、豊臣政権の動揺と徳川家康の台頭を招きました。",
+    "locationId": 27,
+    "locationName": "大阪府",
+    "image": "/images/hideyoshi-death.jpg"
+  },
+  {
+    "id":"061",
     "year": 1600,
     "name": "関ヶ原の戦い",
+    "era": "江戸時代",
     "description": "徳川家康が石田三成らを破り、全国統一への主導権を確立した天下分け目の戦いです。",
     "locationId": 21,
     "locationName": "岐阜県",
     "image": "/images/sekigahara.jpg"
   },
   {
+    "id":"062",
     "year": 1603,
     "name": "江戸幕府成立",
+    "era": "江戸時代",
     "description": "徳川家康が征夷大将軍に任命され、江戸に幕府を開き、約260年にわたる徳川の治世が始まりました。",
     "locationId": 13,
     "locationName": "東京都",
     "image": "/images/edo-castle.jpg"
   },
   {
+    "id":"063",
     "year": 1615,
     "name": "大坂夏の陣",
+    "era": "江戸時代",
     "description": "徳川家康が豊臣氏を滅ぼし、豊臣家による抵抗を完全に終わらせ、武士による支配体制を確立しました。",
     "locationId": 27,
     "locationName": "大阪府",
     "image": "/images/osaka-natsunojin.jpg"
   },
   {
+    "id":"064",
     "year": 1635,
     "name": "武家諸法度改訂（参勤交代の義務化）",
+    "era": "江戸時代",
     "description": "徳川家光が武家諸法度を改訂し、諸大名に参勤交代を義務付け、幕府への忠誠を強化し、財政を圧迫しました。",
     "locationId": 13,
     "locationName": "東京都",
     "image": "/images/sankin-kotai.jpg"
   },
   {
+    "id":"065",
     "year": 1637,
     "name": "島原の乱",
+    "era": "江戸時代",
     "description": "キリシタンや農民による大規模な一揆が勃発し、幕府が徹底的に鎮圧しました。これにより鎖国政策が強化されました。",
     "locationId": 42,
     "locationName": "長崎県",
     "image": "/images/shimabara-revolt.jpg"
   },
   {
+    "id":"066",
     "year": 1639,
     "name": "鎖国体制の完成",
+    "era": "江戸時代",
     "description": "ポルトガル船の来航禁止、日本人の海外渡航・帰国禁止などにより、幕府による鎖国体制が確立しました。",
     "locationId": 42,
     "locationName": "長崎県",
     "image": "/images/sakoku.jpg"
   },
   {
+    "id":"067",
     "year": 1716,
     "name": "享保の改革",
+    "era": "江戸時代",
     "description": "徳川吉宗が行った幕府財政の立て直しと綱紀粛正を目的とした改革で、質素倹約や新田開発を推進しました。",
     "locationId": 13,
     "locationName": "東京都",
     "image": "/images/kyoho-reform.jpg"
   },
   {
+    "id":"068",
     "year": 1787,
     "name": "寛政の改革",
+    "era": "江戸時代",
     "description": "松平定信が老中となり、財政再建や風紀の引き締めを図った改革です。倹約令や出版統制などが行われました。",
     "locationId": 13,
     "locationName": "東京都",
     "image": "/images/kansei-reform.jpg"
   },
   {
+    "id":"069",
     "year": 1825,
     "name": "異国船打払令",
+    "era": "江戸時代",
     "description": "外国船が日本の近海に近づいた際に無条件で撃退することを命じた法令で、鎖国政策をより厳格化しました。",
     "locationId": 13,
     "locationName": "東京都",
     "image": "/images/ikokusen-uchiharai.jpg"
   },
   {
+    "id":"070",
     "year": 1833,
     "name": "天保の飢饉",
+    "era": "江戸時代",
     "description": "全国的な大飢饉が発生し、各地で打ちこわしや一揆が頻発するなど、幕府の権威が揺らぎ始めました。",
     "locationId": 13,
     "locationName": "東京都",
     "image": "/images/tempo-famine.jpg"
   },
   {
+    "id":"071",
     "year": 1853,
     "name": "黒船来航",
+    "era": "江戸時代",
     "description": "アメリカのペリー提督が浦賀に来航し開国を要求。これにより日本の鎖国体制が大きく揺らぎ始めました。",
     "locationId": 14,
     "locationName": "神奈川県",
     "image": "/images/kurofune.jpg"
   },
   {
+    "id":"071",
     "year": 1854,
     "name": "日米和親条約締結",
+    "era": "江戸時代",
     "description": "ペリーとの交渉により、日本が開国し、下田と箱館（函館）を開港。鎖国が終焉へと向かう大きな一歩となりました。",
     "locationId": 13,
     "locationName": "東京都",
     "image": "/images/nichibei-washin.jpg"
   },
   {
+    "id":"072",
     "year": 1867,
     "name": "大政奉還",
+    "era": "江戸時代",
     "description": "徳川慶喜が政権を朝廷に返上し、約260年続いた江戸幕府が終焉を迎えました。",
     "locationId": 26,
     "locationName": "京都府",
     "image": "/images/taisei-hokan.jpg"
   },
-  {
+   {
+    "id":"073",
     "year": 1868,
-    "name": "明治維新",
+    "name": "五箇条の御誓文発布",
     "era": "明治時代",
-    "description": "大政奉還・王政復古の大号令により新政府が樹立。首都が東京と定められ、近代化が急速に進みました。",
+    "description": "明治天皇が新政府の基本方針を示したもので、広く会議を開き、旧来の陋習を破り、国際社会に目を向けることを宣言しました。",
+    "locationId": 26,
+    "locationName": "京都府",
+    "image": "/images/gokajo-goseimon.jpg"
+  },
+  {
+    "id":"074",
+    "year": 1868,
+    "name": "明治維新（戊辰戦争終結）",
+    "era": "明治時代",
+    "description": "鳥羽・伏見の戦いから始まった戊辰戦争が終結し、江戸幕府が完全に倒れ、明治新政府による中央集権体制が確立しました。",
     "locationId": 13,
     "locationName": "東京都",
-    "image": "/images/meiji-jingu.jpg"
+    "image": "/images/meiji-ishin.jpg"
+  },
+  {
+    "id":"075",
+    "year": 1869,
+    "name": "版籍奉還",
+    "era": "明治時代",
+    "description": "薩摩・長州・土佐・肥前藩主らが領地と領民を天皇に返上することを申し出たもので、廃藩置県への布石となりました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/hanseki-hokan.jpg"
+  },
+  {
+    "id":"076",
+    "year": 1871,
+    "name": "廃藩置県",
+    "era": "明治時代",
+    "description": "藩を廃止して県を設置し、中央から府知事・県令を派遣することで、名実ともに中央集権国家が確立しました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/haihan-chiken.jpg"
+  },
+  {
+    "id":"077",
+    "year": 1872,
+    "name": "学制発布",
+    "era": "明治時代",
+    "description": "全国に小学校を設置し、国民皆学を目指す教育制度を導入。近代的な学校教育の基礎が築かれました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/gakusei.jpg"
+  },
+  {
+    "id":"078",
+    "year": 1873,
+    "name": "徴兵令発布",
+    "era": "明治時代",
+    "description": "満20歳以上の男子に兵役を義務付ける徴兵制度が導入され、近代的な国民軍が編成されました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/choheirei.jpg"
+  },
+  {
+    "id":"079",
+    "year": 1873,
+    "name": "地租改正",
+    "era": "明治時代",
+    "description": "地価の3%を地租として現金で納める制度に変更。安定した税収を確保し、近代国家の財政基盤を確立しました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/chiso-kaisei.jpg"
+  },
+  {
+    "id":"080",
+    "year": 1877,
+    "name": "西南戦争終結",
+    "era": "明治時代",
+    "description": "西郷隆盛を盟主とする士族反乱が鎮圧され、明治政府への武力による抵抗が終わりを告げました。",
+    "locationId": 46,
+    "locationName": "鹿児島県",
+    "image": "/images/seinan-senso.jpg"
+  },
+  {
+    "id":"081",
+    "year": 1889,
+    "name": "大日本帝国憲法発布",
+    "era": "明治時代",
+    "description": "天皇を元首とする立憲君主制の近代憲法が制定され、近代国家としての体制が整いました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/dai-nippon-teikoku-kenpo.jpg"
+  },
+  {
+    "id":"082",
+    "year": 1890,
+    "name": "帝国議会開設",
+    "era": "明治時代",
+    "description": "大日本帝国憲法に基づき、衆議院と貴族院からなる帝国議会が開設され、近代的な議会政治が始まりました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/teikoku-gikai.jpg"
+  },
+  {
+    "id":"083",
+    "year": 1894,
+    "name": "日清戦争開戦",
+    "era": "明治時代",
+    "description": "朝鮮半島の支配権を巡り、日本と清の間で戦争が勃発。日本の勝利により東アジアの国際秩序が大きく変化しました。",
+    "locationId": 34,
+    "locationName": "広島県",
+    "image": "/images/nisshin-senso.jpg"
+  },
+  {
+    "id":"084",
+    "year": 1904,
+    "name": "日露戦争開戦",
+    "era": "明治時代",
+    "description": "満州と朝鮮半島の利権を巡り、日本とロシアの間で戦争が勃発。日本が勝利し、国際的地位を高めました。",
+    "locationId": 40,
+    "locationName": "福岡県",
+    "image": "/images/nichiro-senso.jpg"
+  },
+  {
+    "id":"085",
+    "year": 1910,
+    "name": "韓国併合",
+    "era": "明治時代",
+    "description": "日本が韓国を併合し、植民地としました。これは東アジアの歴史に大きな影響を与えました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/kankoku-heigo.jpg"
+  },
+  {
+    "id":"086",
+    "year": 1912,
+    "name": "明治天皇崩御（明治時代終焉）",
+    "era": "明治時代",
+    "description": "明治天皇が崩御し、大正天皇が即位。これにより明治時代が終わり、大正時代へと移り変わりました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/meiji-emperor-death.jpg"
+  },
+   {
+    "id":"087",
+    "year": 1912,
+    "name": "大正天皇即位",
+    "era": "大正時代",
+    "description": "明治天皇の崩御に伴い、嘉仁親王が大正天皇として即位し、新しい時代が始まりました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/taisho-emperor-enthronement.jpg"
+  },
+  {
+    "id":"088",
+    "year": 1914,
+    "name": "第一次世界大戦勃発（日本参戦）",
+    "era": "大正時代",
+    "description": "ヨーロッパで第一次世界大戦が勃発。日本は日英同盟に基づき連合国側に参戦し、中国のドイツ権益を占領するなど、国際的地位を高めました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/ww1-japan.jpg"
+  },
+  {
+    "id":"089",
+    "year": 1918,
+    "name": "米騒動",
+    "era": "大正時代",
+    "description": "米価の高騰に不満を抱いた主婦たちが富山県で起こした運動が全国に広がり、社会不安が増大しました。",
+    "locationId": 16,
+    "locationName": "富山県",
+    "image": "/images/kome-sodo.jpg"
+  },
+  {
+    "id":"090",
+    "year": 1918,
+    "name": "原敬内閣成立（本格的政党内閣）",
+    "era": "大正時代",
+    "description": "衆議院で多数を占める政友会の原敬が首相となり、日本初の本格的な政党内閣が成立しました。これにより「大正デモクラシー」の動きが本格化します。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/hara-kei.jpg"
+  },
+  {
+    "id":"091",
+    "year": 1919,
+    "name": "パリ講和会議（ヴェルサイユ条約調印）",
+    "era": "大正時代",
+    "description": "第一次世界大戦の講和会議に参加し、ヴェルサイユ条約に調印。国際連盟の常任理事国となるなど、国際的な発言力を強めました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/paris-peace-conference.jpg"
+  },
+  {
+    "id":"092",
+    "year": 1923,
+    "name": "関東大震災",
+    "era": "大正時代",
+    "description": "関東地方をM7.9の巨大地震が襲い、甚大な被害をもたらしました。帝都復興計画が進められるきっかけとなりました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/kanto-daishinsai.jpg"
+  },
+  {
+    "id":"093",
+    "year": 1925,
+    "name": "普通選挙法制定",
+    "era": "大正時代",
+    "description": "満25歳以上の男子全員に選挙権が与えられ、日本の民主主義が大きく進展しました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/futsu-senkyoho.jpg"
+  },
+  {
+    "id":"094",
+    "year": 1925,
+    "name": "治安維持法制定",
+    "era": "大正時代",
+    "description": "普通選挙法と同時に制定され、社会主義運動や共産主義運動を取り締まるために利用され、国民の自由な言論や活動を制限しました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/chian-ijiho.jpg"
+  },
+  {
+    "id":"095",
+    "year": 1926,
+    "name": "大正天皇崩御（大正時代終焉）",
+    "era": "大正時代",
+    "description": "大正天皇が崩御し、裕仁親王が昭和天皇として即位。これにより大正時代が終わり、昭和時代へと移り変わりました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/taisho-emperor-death.jpg"
+  },
+  {
+    "id":"096",
+    "year": 1926,
+    "name": "昭和天皇即位",
+    "era": "昭和時代",
+    "description": "大正天皇の崩御に伴い、裕仁親王が昭和天皇として即位し、昭和時代が始まりました。この時代は激動の時期となります。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/showa-emperor-enthronement.jpg"
+  },
+  {
+    "id":"097",
+    "year": 1929,
+    "name": "世界恐慌発生（昭和恐慌）",
+    "era": "昭和時代",
+    "description": "アメリカでの株価暴落をきっかけに世界恐慌が発生し、日本も「昭和恐慌」と呼ばれる深刻な経済不況に見舞われました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/world-depression.jpg"
+  },
+  {
+    "id":"098",
+    "year": 1931,
+    "name": "満州事変",
+    "era": "昭和時代",
+    "description": "関東軍が満州で鉄道爆破事件を起こし、これを契機に満州全域を占領。国際社会から日本の孤立が進みました。",
+    "locationId": 1,
+    "locationName": "満州（中国東北部）",
+    "image": "/images/manshu-jihen.jpg"
+  },
+  {
+    "id":"099",
+    "year": 1932,
+    "name": "五・一五事件",
+    "era": "昭和時代",
+    "description": "海軍青年将校らが犬養毅首相を暗殺。政党政治の時代が終わりを告げ、軍部の発言力が増大しました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/515-incident.jpg"
+  },
+  {
+    "id":"100",
+    "year": 1933,
+    "name": "国際連盟脱退",
+    "era": "昭和時代",
+    "description": "満州事変に対する国際連盟のリットン調査団報告を不服として、日本が国際連盟を脱退。国際的な孤立を深めました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/league-of-nations-withdrawal.jpg"
+  },
+  {
+    "id":"101",
+    "year": 1936,
+    "name": "二・二六事件",
+    "era": "昭和時代",
+    "description": "陸軍青年将校らが首相官邸などを襲撃し、要人を殺害。軍部の政治介入がさらに強まるきっかけとなりました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/226-incident.jpg"
+  },
+  {
+    "id":"102",
+    "year": 1937,
+    "name": "日中戦争開戦（盧溝橋事件）",
+    "era": "昭和時代",
+    "description": "北京郊外の盧溝橋で日本軍と中国軍が衝突し、日中全面戦争が始まりました。",
+    "locationId": 1,
+    "locationName": "盧溝橋（中国）",
+    "image": "/images/nichu-senso.jpg"
+  },
+  {
+    "id":"103",
+    "year": 1941,
+    "name": "太平洋戦争開戦（真珠湾攻撃）",
+    "era": "昭和時代",
+    "description": "日本がハワイの真珠湾を奇襲攻撃し、アメリカとの太平洋戦争が始まりました。",
+    "locationId": 1,
+    "locationName": "ハワイ（アメリカ）",
+    "image": "/images/pearl-harbor.jpg"
+  },
+  {
+    "id":"104",
+    "year": 1945,
+    "name": "広島・長崎への原爆投下",
+    "era": "昭和時代",
+    "description": "アメリカが広島と長崎に原子爆弾を投下。甚大な被害をもたらし、日本の降伏を促しました。",
+    "locationId": 34,
+    "locationName": "広島県",
+    "image": "/images/hiroshima-atomic-bomb.jpg"
+  },
+  {
+    "id":"105",
+    "year": 1945,
+    "name": "ポツダム宣言受諾（太平洋戦争終結）",
+    "era": "昭和時代",
+    "description": "日本がポツダム宣言を受諾し、無条件降伏。第二次世界大戦が終結し、連合国による占領が始まりました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/potsdam-declaration.jpg"
+  },
+  {
+    "id":"106",
+    "year": 1946,
+    "name": "日本国憲法公布",
+    "era": "昭和時代",
+    "description": "象徴天皇制、国民主権、平和主義などを盛り込んだ日本国憲法が公布され、翌年施行されました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/japan-constitution.jpg"
+  },
+  {
+    "id":"107",
+    "year": 1951,
+    "name": "サンフランシスコ平和条約・日米安全保障条約調印",
+    "era": "昭和時代",
+    "description": "第二次世界大戦の講和条約が締結され、日本は独立を回復。同時に日米安全保障条約が結ばれ、冷戦下の国際秩序に組み込まれました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/sanfrancisco-treaty.jpg"
+  },
+  {
+    "id":"108",
+    "year": 1956,
+    "name": "国際連合加盟",
+    "era": "昭和時代",
+    "description": "日本が国際連合に加盟し、国際社会への復帰を本格化させました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/un-joining.jpg"
+  },
+  {
+    "id":"109",
+    "year": 1964,
+    "name": "東京オリンピック開催",
+    "era": "昭和時代",
+    "description": "アジアで初めて東京で夏季オリンピックが開催され、日本の高度経済成長と復興を世界に示しました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/tokyo-olympics-1964.jpg"
+  },
+  {
+    "id":"110",
+    "year": 1972,
+    "name": "沖縄返還",
+    "era": "昭和時代",
+    "description": "第二次世界大戦後、アメリカの統治下にあった沖縄が日本に返還されました。",
+    "locationId": 47,
+    "locationName": "沖縄県",
+    "image": "/images/okinawa-henkan.jpg"
+  },
+  {
+    "id":"111",
+    "year": 1989,
+    "name": "昭和天皇崩御（昭和時代終焉）",
+    "era": "昭和時代",
+    "description": "昭和天皇が崩御し、明仁親王が平成天皇として即位。これにより昭和時代が終わり、平成時代へと移り変わりました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/showa-emperor-death.jpg"
+  },
+  {
+    "id":"112",
+    "year": 1989,
+    "name": "平成への改元",
+    "era": "平成時代",
+    "description": "昭和天皇の崩御に伴い、明仁親王が天皇に即位し、「平成」に改元されました。バブル景気終盤の時期でした。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/heisei-gengen.jpg"
+  },
+  {
+    "id":"113",
+    "year": 1991,
+    "name": "バブル経済崩壊",
+    "era": "平成時代",
+    "description": "株価や地価の急激な下落が始まり、日本の好景気が終わりを告げ、長期的な経済停滞へと向かいました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/bubble-collapse.jpg"
+  },
+  {
+    "id":"114",
+    "year": 1995,
+    "name": "阪神・淡路大震災",
+    "era": "平成時代",
+    "description": "兵庫県南部を震源とするM7.3の直下型地震が発生し、神戸市を中心に甚大な被害をもたらしました。震災復興の課題が浮き彫りになりました。",
+    "locationId": 28,
+    "locationName": "兵庫県",
+    "image": "/images/hanshin-awaji.jpg"
+  },
+  {
+    "id":"115",
+    "year": 1995,
+    "name": "地下鉄サリン事件",
+    "era": "平成時代",
+    "description": "オウム真理教による東京都心での無差別テロ事件が発生。国内外に大きな衝撃を与え、社会の安全保障への意識が高まりました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/subway-sarin.jpg"
+  },
+  {
+    "id":"116",
+    "year": 2001,
+    "name": "アメリカ同時多発テロ事件（日本の対応）",
+    "era": "平成時代",
+    "description": "アメリカで発生した大規模テロ事件に対し、日本はテロ対策特別措置法を制定し、国際的なテロ対策に協力しました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/911-japan.jpg"
+  },
+  {
+    "id":"117",
+    "year": 2002,
+    "name": "日朝首脳会談（小泉首相訪朝）",
+    "era": "平成時代",
+    "description": "小泉純一郎首相が北朝鮮を訪問し、金正日総書記との間で日朝平壌宣言に署名。拉致問題の一部が解決へと向かいました。",
+    "locationId": 1,
+    "locationName": "平壌（北朝鮮）",
+    "image": "/images/jp-nk-summit.jpg"
+  },
+  {
+    "id":"118",
+    "year": 2009,
+    "name": "政権交代（民主党への交代）",
+    "era": "平成時代",
+    "description": "衆議院選挙で民主党が圧勝し、戦後長く続いた自民党単独政権が終わりを告げました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/dpj-change.jpg"
+  },
+  {
+    "id":"119",
+    "year": 2011,
+    "name": "東日本大震災",
+    "era": "平成時代",
+    "description": "東北地方の太平洋沖でM9.0の巨大地震が発生し、大規模な津波が東北地方を襲いました。福島第一原子力発電所の事故も発生し、日本社会に甚大な影響を与えました。",
+    "locationId": 4,
+    "locationName": "宮城県",
+    "image": "/images/higashinihon-daishinsai.jpg"
+  },
+  {
+    "id":"120",
+    "year": 2019,
+    "name": "今上天皇退位（平成時代終焉）",
+    "era": "平成時代",
+    "description": "天皇の生前退位が約200年ぶりに行われ、明仁天皇が退位し、皇太子徳仁親王が即位。これにより平成時代が終わり、令和時代へと移り変わりました。",
+    "locationId": 13,
+    "locationName": "東京都",
+    "image": "/images/emperor-abdication.jpg"
   }
 ]
