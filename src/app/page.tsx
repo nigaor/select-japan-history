@@ -11,7 +11,7 @@ import EraList from "./components/EraList";
 const DynamicJapanMap = dynamic(() => import("@/app/components/JapanMap"), {
   ssr: false,
   loading: () => (
-    <div style={{ height: "500px", width: "100%" }}>
+    <div className="h-[600px] w-full bg-white flex items-center justify-center">
       <p>地図を読み込み中...</p>
     </div>
   ),
@@ -28,7 +28,7 @@ try {
   );
 }
 
-const eras = [ "すべて", ...new Set(parsedEvents.map((event) => event.era))];
+const eras = [...new Set(parsedEvents.map((event) => event.era))];
 
 export default function Home() {
   const [activeEvent, setActiveEvent] = useState<HistoricalEvent | null>(null);
@@ -43,10 +43,7 @@ export default function Home() {
     setActiveEvent(null);
   }
   
-  const filteredEvents =
-    selectedEra === "すべて"
-      ? parsedEvents
-      : parsedEvents.filter((event) => event.era === selectedEra);
+  const filteredEvents = parsedEvents.filter((event) => event.era === selectedEra);
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-8 bg-gray-50">

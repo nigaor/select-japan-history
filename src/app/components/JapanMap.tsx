@@ -27,7 +27,7 @@ const JapanMap: React.FC<JapanMapProps> = ({ highlightedLocationId }) => {
     <MapContainer
       center={[39, 139]}
       zoom={5}
-      style={{ height: "500px", width: "100%", backgroundColor: "white" }}
+      style={{ height: "600px", width: "100%", backgroundColor: "white" }}
       zoomControl={false}
       attributionControl={false}
     >
