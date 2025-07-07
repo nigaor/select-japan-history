@@ -7,10 +7,10 @@ import { HistoricalEvent } from "@/types/event";
 
 interface TimelineProps {
   events: HistoricalEvent[];
-  onYearHover: (event: HistoricalEvent | null) => void;
+  onYearClick: (event: HistoricalEvent | null) => void;
 }
 
-const Timeline: React.FC<TimelineProps> = ({ events, onYearHover }) => {
+const Timeline: React.FC<TimelineProps> = ({ events, onYearClick }) => {
   const { minYear, maxYear } = useMemo(() => {
     if (events.length === 0) {
       return { minYear: 0, maxYear: 0 };
@@ -42,7 +42,7 @@ const Timeline: React.FC<TimelineProps> = ({ events, onYearHover }) => {
                 style={{
                   left: `calc(1rem + (100% - 2rem) * ${positionPercentage / 100} - 8px)`,
                 }}
-                onMouseEnter={() => onYearHover(event)}
+                onClick={() => onYearClick(event)}
                 initial={{ opacity: 0, scale: 0.5 }} 
                 animate={{ opacity: 1, scale: 1.5 }}
                 exit={{ opacity: 0, scale: 0.5 }}
