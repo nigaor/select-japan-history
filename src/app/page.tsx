@@ -1,79 +1,81 @@
-"use client";
+"use client"
 
-import { useState } from "react";
-import dynamic from "next/dynamic";
-import { historicalEventsSchema, HistoricalEvent } from "@/types/event";
-import historicalEventsData from "@/data/historical-events.json";
-import EventCard from "./components/EventCard";
-import Timeline from "./components/Timeline";
-import EraList from "./components/EraList";
+import { useState } from 'react';
+import {historicalEventsSchema,HistoricalEvent} from '@/types/event';
+import dynamic from 'next/dynamic';
+import historicalEventsData from '@/data/historical-events.json';
+import EventCard from './components/EventCard';
+import Timeline from './components/Timeline';
+import EraList from './components/EraList';
 
-const DynamicJapanMap = dynamic(() => import("@/app/components/JapanMap"), {
+const DynamicJapanMap = dynamic(() => import("@/app/components/JapanMap"),{
   ssr: false,
-  loading: () => (
-    <div style={{ height: "500px", width: "100%" }}>
-      <p>地図を読み込み中...</p>
+  loading: (() => (
+    <div className='w-[600px] h-auto bg-white flex items-center justyfy-center'>
+      <p>日本史マップ</p>
     </div>
-  ),
-});
+  ))
+}
+)
 
-let parsedEvents: HistoricalEvent[] = [];
+let parseEvents:HistoricalEvent[] = [];
 
 try {
-  parsedEvents = historicalEventsSchema.parse(historicalEventsData);
+  parseEvents = historicalEventsSchema.parse(historicalEventsData)
 } catch (error) {
   console.error(
-    "historical-events.jsonのデータ形式がスキーマと一致しません:",
+    "スキーマの定義と一致しません",
     error
-  );
+  )
 }
 
-const eras = [ "すべて", ...new Set(parsedEvents.map((event) => event.era))];
+const eras = [...new Set(parseEvents.map((event) => event.era))];
 
 export default function Home() {
-  const [activeEvent, setActiveEvent] = useState<HistoricalEvent | null>(null);
+  const [activeEvents,setActiveEvents] = useState<HistoricalEvent | null>(null);
   const [selectedEra,setSelectedEra] = useState<string>("鎌倉時代");
 
-  const handleYearHover = (event: HistoricalEvent | null) => {
-    setActiveEvent(event);
-  };
-
-  const handleSelectEra = (era:string) => {
+  const handleSelectedEra = (era:string) => {
     setSelectedEra(era);
-    setActiveEvent(null);
+    setActiveEvents(null);
   }
-  
-  const filteredEvents =
-    selectedEra === "すべて"
-      ? parsedEvents
-      : parsedEvents.filter((event) => event.era === selectedEra);
 
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-8 bg-gray-50">
-      <h1 className="text-4xl font-bold mb-8">インタラクティブ日本史マップ</h1>
+  const handleYearClick = ( event:HistoricalEvent | null ) => {
+    setActiveEvents(event);
+  }
 
-      <div className="w-full max-w-7xl grid grid-cols-1 lg:grid-cols-12 gap-8">
-        <div className="w-full h-auto border rounded-lg shadow-sm bg-white overflow-hidden lg:col-span-5">
+  const filteredEvents = parseEvents.filter((events) => events.era === selectedEra);
+
+  return(
+    <main className='flex min-h-screen flex-col items-center justyfy-center p-8 bg-gray-50'>
+      <h1 className='text-4xl font-bold mb-8'>インタラクティブ日本史マップ</h1>
+
+      <div className='w-full max-w-7xl grid grid-cols-1 lg:grid-cols-12 gap-8'>
+        <div className='w-full h-auto border shadow-sm rounded-lg bg-white overflow-hidden lg:col-span-5'>
           <DynamicJapanMap
-            highlightedLocationId={activeEvent?.locationId ?? null}
+            highlightedLocationId={activeEvents?.locationId ?? null}
           />
         </div>
-
-        <div className="w-full h-full lg:col-span-5">
-          <EventCard event={activeEvent} />
+        <div className='w-full h-outo lg:col-span-5'>
+          <EventCard event={activeEvents}/>
         </div>
-        <div className="w-full h-full lg:col-span-2">
+        <div className='w-full h-auto lg:col-span-2'>
           <EraList
             eras={eras}
             selectedEra={selectedEra}
-            onSelectEra={handleSelectEra}
+            onSelectEra={handleSelectedEra}
           />
         </div>
       </div>
 
-      <div className="w-full max-w-7xl mt-8">
-        <Timeline events={filteredEvents} onYearHover={handleYearHover} />
+      <div className='w-full max-w-7xl mt-8'>
+        <Timeline 
+          events={filteredEvents}
+          onYearClick={handleYearClick}
+        />
+
       </div>
+
     </main>
-  );
+  )
 }
