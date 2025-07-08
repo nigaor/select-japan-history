@@ -27,7 +27,7 @@ const EventCard: React.FC<EventCardProps> = ({ event }) => {
       <p className="text-gray-600 mb-4">場所: {event.locationName}</p>
 
       {event.image && (
-        <div className="relative w-full h-60 mb-4">
+        <div className="relative w-full h-100 mb-4">
           <Image
             src={event.image}
             alt={event.name}
