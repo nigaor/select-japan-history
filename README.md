@@ -12,10 +12,10 @@
 - 出来事が起きた(選択した)場所が赤色で表示される
 
 ### 技術選定
-- 言語：Typescript
-- フレームワーク：Next.js
-- UIライブラリ：react
-- スタイリング：TailwindCSS
-- インフラ：Docker
+- 言語：Typescript 5
+- フレームワーク：Next.js 15.3.4
+- UIライブラリ：react 19.0.0
+- スタイリング：TailwindCSS 4
+- インフラ：Docker 
 
 ![スクリーンショット 2025-07-08 235850](https://github.com/user-attachments/assets/f8056a01-7ed3-4632-a293-1e7920359191)
