@@ -16,6 +16,6 @@
 - フレームワーク：Next.js 15.3.4
 - UIライブラリ：react 19.0.0
 - スタイリング：TailwindCSS 4
-- インフラ：Docker 
+- インフラ：Docker  
 
 ![スクリーンショット 2025-07-08 235850](https://github.com/user-attachments/assets/f8056a01-7ed3-4632-a293-1e7920359191)
